@@ -15,11 +15,11 @@
 ///
 
 export const environment = {
-  appTitle: 'ThingsBoard',
+  appTitle: '矿山大型设备监测平台',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
 // @ts-ignore
   supportedLangs: SUPPORTED_LANGS,
-  defaultLang: 'en_US'
+  defaultLang: 'zh_CN'
 };

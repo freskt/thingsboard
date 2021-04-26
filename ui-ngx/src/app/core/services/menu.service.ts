@@ -222,7 +222,8 @@ export class MenuService {
         id: guid(),
         name: 'home.home',
         type: 'link',
-        path: '/home',
+        path: '/dashboards/d96f7f80-a37b-11eb-bdfb-3b3876949004',
+       // path: '/home',
         icon: 'home'
       },
       {
@@ -289,6 +290,7 @@ export class MenuService {
         path: '/auditLogs',
         icon: 'track_changes'
       },
+      /*
       {
         id: guid(),
         name: 'api-usage.api-usage',
@@ -297,6 +299,8 @@ export class MenuService {
         icon: 'insert_chart',
         notExact: true
       }
+
+       */
     );
     return sections;
   }

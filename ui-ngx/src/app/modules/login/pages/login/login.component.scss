@@ -21,8 +21,11 @@
   .tb-login-content {
     margin-top: 36px;
     margin-bottom: 76px;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(250, 250, 250, 0);
+    background-image: url("../../../../../assets/background.png");
+    background-size: 100% 100%;
     .tb-login-form {
+      color: black;
       @media #{$mat-gt-xs} {
         width: 550px !important;
       }
